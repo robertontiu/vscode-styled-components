@@ -2,13 +2,13 @@
   "name": "vscode-styled-components",
   "displayName": "vscode-styled-components",
   "description": "Syntax highlighting for styled-components",
-  "version": "0.0.27",
-  "publisher": "jpoissonnier",
+  "version": "0.1.27",
+  "publisher": "ro",
   "icon": "logo.png",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/styled-components/vscode-styled-components.git"
+    "url": "https://github.com/robertontiu/vscode-styled-components"
   },
   "engines": {
     "vscode": "^1.5.0"
@@ -54,15 +54,7 @@
         }
       }
     ],
-    "typescriptServerPlugins": [
-      {
-        "name": "typescript-styled-plugin",
-        "enableForWorkspaceTypeScriptVersions": true
-      }
-    ]
-  },
-  "dependencies": {
-    "typescript-styled-plugin": "0.15.0"
+    "typescriptServerPlugins": []
   },
   "devDependencies": {
     "prettier": "^1.14.3",
